@@ -1,7 +1,7 @@
 
 //////////////IMPORTS////////////////
 
-import './App.css';
+import './App.scss';
 import Chart from 'chart.js/auto'
 import { useState } from "react";
 import { Radar } from 'react-chartjs-2';
