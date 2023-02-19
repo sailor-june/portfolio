@@ -18,33 +18,6 @@ import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 
 function App() {
-
-
-
-   
-
-
-
-
-
-  const data = {
-    labels: ['Red', 'Orange', 'Blue'],
-    datasets: [
-      {
-        
-        label: 'Popularity of colours',
-        data: [55, 23, 96],
-        borderColor:['blue'],
-        backgroundColor: [
-          'rgba(255, 0, 0, 0.6)',
-        'rgba(255, 255, 255, 0.6)',
-        'rgba(255, 255, 0, 0.6)'
-      ],
-      borderWidth: 1,
-    }
-  ]
-  }
-
   
 
   return (
@@ -61,7 +34,7 @@ function App() {
           </div> */}
           <Contact />
         </div>
-        <div className="footer">a</div>
+        <div className="footer">Copyright 2023 Juniper C. James</div>
       </div>
     </div>
   );

@@ -5,10 +5,10 @@ function Contact() {
     <div className='content'>
 
     <h1 className='first'>Contact</h1>
-    <div className='content'>
-        <p className='first'>-email </p>
-        <p className='second'>-linkedin</p>
-        <p className='third'><img src='/discord.png'className='icon' />discord</p>
+    <div className='content second'>
+        <a href="mailto:JunipercJames@gmail.com" className='first'><img src='email.png' className='icon'></img> email </a>
+        <p className='second'><img src="/linkedin.png" className='icon'></img> <a href="https://www.linkedin.com/in/juniper-c-james"> linkedin</a></p>
+        <p className='third'><img src='/discord.png'className='icon' /> Reach me on Discord @ sailor.june#2422 </p>
     </div>
     </div>
   )

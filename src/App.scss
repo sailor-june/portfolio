@@ -15,10 +15,8 @@ body {
 }
 
 .header {
-
   box-shadow:  5px 5px 20px, -5px -5px 5px whitesmoke  ;
   background-color: rgba(143, 188, 143, 0.5);
-  
   backdrop-filter: blur( 5px );
   -webkit-backdrop-filter: blur( 5px );
   padding: 0rem 10rem;
@@ -26,10 +24,14 @@ body {
   justify-content: space-between;
   grid-column: 1/4;
 }
+
+
 .leftbar {
   background-color: slategray;
   grid-column: 1/2;
 }
+
+
 .main {
   background: linear-gradient( rgb(88, 208, 134), rgb(75, 160, 0));
   background-color: linear rgb(73, 174, 112);
@@ -37,19 +39,19 @@ body {
   position: relative;
   grid-template-columns: 1fr 2fr 1fr;
   align-items: center;
+  
   grid-column: 2/3;
 }
 
- .content{
-  text-shadow: hotpink;
+.content{
+  position: relative;
   box-shadow: 
-    inset 1px 1px 30px 2px rgba(243, 193, 255, 0.5),
-    inset -1px -1px 20px,
-    inset -1px -1px 30px rgba(255, 193, 226, 0.2),
-    1px 1px 20px,
-    -5px -5px 5px rgba(255, 203, 253, 0.2),
-    1px 1px 30px 3px rgba(243, 193, 255, 0.5);
-
+  inset 1px 1px 30px 2px rgba(243, 193, 255, 0.9),
+  inset -1px -1px 40px,
+  1px 1px 20px white,
+  -5px -5px 15px rgba(255, 160, 252, 0.95),
+  5px 5px 30px 3px rgba(243, 193, 255, 0.693);
+  z-index: 0;
   border-radius: 10px;
   backdrop-filter: blur( 5px );
   -webkit-backdrop-filter: blur( 5px );
@@ -62,16 +64,18 @@ body {
   grid-column: 2;
   height: auto;
   transition: ease-in-out 1s;
-  overflow: hidden;
-
-
-
-.first{
+  overflow: visible;
+  
+  
+  
+  .first{
   border-radius: inherit;
   margin: 10px 20px;
   grid-column: 1/5;
   grid-row:1/1;
-  background-color:rgba(143, 188, 143, 0.5)
+  background-color:rgba(143, 188, 143, 1);
+  
+  
 }
 .second{
   border-radius: inherit;
@@ -100,12 +104,19 @@ body {
   grid-column: 1/5;
   grid-row:5/5;
   background-color:rgba(143, 188, 143, 0.5)
- }
- }
+}
+}
 
 
- .content:hover{ backdrop-filter: blur( .5px );
-  -webkit-backdrop-filter: blur( .5px );}
+.content:hover{
+   backdrop-filter: blur( .5px );
+  -webkit-backdrop-filter: blur( .5px );
+  box-shadow: inset 1px 1px 40px 2px rgba(243, 193, 255, 0.9),
+  inset -1px -1px 30px,
+  1px 1px 30px white,
+  -5px -5px 25px rgba(255, 160, 252, 0.95),
+  5px 5px 50px 3px rgba(243, 193, 255, 0.693)
+}
 
 
 
@@ -124,30 +135,14 @@ body {
   grid-row: 2;
   height: 80%
 }
-
-.leftbar li {
+.accordion{
   position: relative;
-  transition: 3s ease;
-  cursor: pointer;
 }
-
-.leftbar li:hover {
-  background-color: #f0f0f0;
+.accordion-content{
+  position:absolute;
+  z-index: 100;
+  background-color: rgb(75, 160, 0);
 }
-
-.leftbar li .expansion {
-  position: absolute;
-  z-index: 1;
-  left: 0;
-  width: 0;
-  height: 0;
-  overflow: hidden;
-  background-color: #f0f0f0;
-  transition: transform 1s ease 1, width 0.3s ease 0.7s, height 0.3s ease 0.7s;
-  transform: scaleX(0) scaleY(0);
-}
-
-
 
 .icon{
   max-height: 32px;
