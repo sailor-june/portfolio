@@ -138,8 +138,12 @@ body {
 .accordion{
   position: relative;
 }
+.accordion-title{
+  cursor: pointer;
+  text-align: center;
+}
 .accordion-content{
-  position:absolute;
+  position:relative;
   z-index: 100;
   background-color: rgb(75, 160, 0);
 }

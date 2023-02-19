@@ -1,16 +1,20 @@
-import React from 'react'
+import React from "react";
+import Accordion from "./Accordion";
 
 function Services() {
   return (
-    <div className='content'>
-      <h1 className='first'>Services</h1>
-<div className='content second'>
-       <p className='first'> web dev</p> 
-       <p className='second'>intro to coding lessons</p> 
-       <p className='third'>pixel art commissions</p>
-       <p className='fourth'>consulting </p></div>
-       </div>
-  )
+    <div className="content">
+    <h1 className="first">Portfolio</h1>
+    <div className="content second">
+      <>
+      <Accordion proj_title="Intro to coding lessons" description="lorem ipsum"   />
+      <Accordion proj_title="Web Development" description="Boy howdy"/>
+      <Accordion proj_title="Pixel Art Commissions" description="wowowoowo" />
+      </>
+      
+      </div>
+      </div>
+  );
 }
 
-export default Services
+export default Services;

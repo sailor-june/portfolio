@@ -29,9 +29,6 @@ function App() {
           <About />
           <Services />
           <Portfolio />
-          {/* <div className='chartcontainer'>
-            <RadarChart  data={data}/>
-          </div> */}
           <Contact />
         </div>
         <div className="footer">Copyright 2023 Juniper C. James</div>

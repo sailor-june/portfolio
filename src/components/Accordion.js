@@ -28,10 +28,9 @@ function Accordion(props) {
               className="accordion-title"
               onClick={() => setIsActive(!isActive)}
             >
-              <div>{title}
-              </div>
-              <>{isActive ? "-" : "+"}</>
-                
+              <h3 className="first">{title}
+              </h3>
+            
             </div>
   
             <div
