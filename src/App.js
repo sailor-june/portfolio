@@ -27,8 +27,8 @@ function App() {
         
         <div className="main">
           <About />
-          <Services />
           <Portfolio />
+          <Services />
           <Contact />
         </div>
         <div className="footer">Copyright 2023 Juniper C. James</div>

@@ -5,10 +5,11 @@ function Accordion(props) {
     const accordionData = {
       title: props.proj_title,
       content: props.description,
-      img: `/${props.proj_title}.jpeg`.replace(' ','_')
+      img: `/${props.proj_title}.jpeg`.replace(' ','_'),
+      link: props.link
     };
     const [isActive, setIsActive] = useState(false);
-    const { title, content, img } = accordionData;
+    const { title, content, img, link } = accordionData;
   
     const contentRef = useRef(null);
   
@@ -36,10 +37,11 @@ function Accordion(props) {
             <div
               className="accordion-content"
               ref={contentRef}
-              style={{ overflow: "hidden", transition: "max-height 1.5s ease-in-out" }}
-            >
-              {content}
-              <img src={img}></img>
+              style={{ overflow: "hidden", transition: "max-height 1.5s ease" }}
+              >
+              <h3>{content}</h3>
+              <a href={link}>
+              <img src={img}></img></a>
             </div>
           </div>
         </div>

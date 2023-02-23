@@ -4,7 +4,7 @@ import Accordion from "./Accordion";
 function Services() {
   return (
     <div className="content">
-    <h1 className="first">Portfolio</h1>
+    <h1 className="first">Services</h1>
     <div className="content second">
       <>
       <Accordion proj_title="Intro to coding lessons" description="lorem ipsum"   />
