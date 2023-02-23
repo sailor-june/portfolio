@@ -3,8 +3,9 @@ import { RadarChart } from './Radar'
 function About() {
   return (
       <div className='content'>
-            <h1 className='first'>Hello!</h1>
+         
         <div className='content second'>
+        <h1 className='first'>Hello!</h1>
         <p className='first'> my Name is June :] I am a full-stack web developer, game designer,and graphic artist. I love making interactive and stylish applications. 
             </p>
             <p className='second'>
