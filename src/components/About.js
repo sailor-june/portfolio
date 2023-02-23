@@ -13,7 +13,7 @@ function About() {
             </p>
             <div className='third'>
                 
-            <a href="https://github.com/sailor-june"> <img src="/github-mark.png" className="icon" /> find me on github </a><br/>
+            <a href="https://github.com/sailor-june" className='first'> <img src="/github-mark.png" className="icon" /> find me on github </a><br/>
             <a href="https://www.linkedin.com/in/juniper-c-james"> <img src="/linkedin.png" className="icon"></img> connect on linkedin</a>
             </div>
             </div>

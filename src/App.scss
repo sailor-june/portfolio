@@ -76,7 +76,7 @@ body {
   margin: 10rem 20rem;
   grid-column: 1/5;
   grid-row:1/1;
-  background-color:rgba(143, 188, 143, 1);
+  background-color: rgba(143, 188, 143, 1);
   
   
 }
@@ -189,6 +189,9 @@ position:relative;
   margin: 0;
 }
 .second{
+  margin:0;
+}
+.content .third{
   margin:0;
 }
   }
