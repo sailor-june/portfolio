@@ -1,4 +1,6 @@
 body {
+  display: flex;
+  justify-content: center;
   min-height: 100vh;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -27,27 +29,26 @@ body {
 }
 
 
-.leftbar {
-  background-color: slategray;
-  grid-column: 1/2;
-}
+
 
 
 .main {
+  padding: 10rem;
   background: linear-gradient( rgb(88, 208, 134), rgb(75, 160, 0));
   background-color: linear rgb(73, 174, 112);
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
   position: relative;
-  grid-template-columns: 1fr 2fr 1fr;
+  //grid-template-columns: 1fr 2fr 1fr;
   min-height: 100vh;
   max-width: 100vw;
-  grid-column: 1/4;
+  //grid-column: 1/4;
 }
 
 .content{
-  margin: 0 2rem;
+  margin: 20rem 10rem;
   max-width: 90vw;
-  position: relative;
   box-shadow: 
   inset 1rem 1rem 4rem 2rem rgba(243, 193, 255, 0.9),
   inset -1rem -1rem 4rem,
@@ -58,7 +59,6 @@ body {
   border-radius: 2rem;
   backdrop-filter: blur( 5rem );
   -webkit-backdrop-filter: blur( 5rem );
-  margin:  60rem 0rem;
   padding: 2rem;
   background-color: rgb(143, 188, 143, 0.4);
   display: grid;
@@ -182,10 +182,7 @@ img{
   display:none;
   }
   
-  .main {
- display: grid;
- 
-  }
+
   
   
   .content {
