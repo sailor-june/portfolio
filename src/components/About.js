@@ -4,8 +4,9 @@ function About() {
   return (
       <div className='content'>
          
-        <div className='content second'>
         <h1 className='first'>Juniper James, Software Developer</h1>
+        <h1> </h1>
+        <div className='content second'>
         <p className='first'> Hello, my Name is June! :] I am a full-stack web developer, game designer,and graphic artist. I love making interactive and stylish applications. 
             </p>
             <p className='second'>

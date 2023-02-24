@@ -5,8 +5,9 @@ function Portfolio() {
   return (
     
     <div className="content">
-      <div className="content second">
       <h1 className="first">Portfolio</h1>
+      <h1> </h1>
+      <div className="content second">
         <Accordion proj_title="Project Luna" description= {<div> 
         Project luna is a simple and streamlined interface for requesting lunar data.<br></br>
         The goal of this project is to provide useful information about the moon in an elegant and easy to read format.<br></br>
