@@ -5,11 +5,12 @@ function About() {
       <div className='content'>
          
         <div className='content second'>
-        <h1 className='first'>Hello!</h1>
-        <p className='first'> my Name is June :] I am a full-stack web developer, game designer,and graphic artist. I love making interactive and stylish applications. 
+        <h1 className='first'>Juniper James, Software Developer</h1>
+        <p className='first'> Hello, my Name is June! :] I am a full-stack web developer, game designer,and graphic artist. I love making interactive and stylish applications. 
             </p>
             <p className='second'>
-                -javascript -css -html -node.js -express -mongoose/mongodb -ejs -react -aseprite -django -python -excel -gimp
+                <h3>SKILLS SUMMARY:</h3>
+                <h5>JavaScript, React, CSS, HTML, Jquery, Express.js, Python, Django, Mongoose, MongoDB, Heroku, Google Firebase, postgreSQL, Netlify</h5>
             </p>
             <div className='third'>
                 
