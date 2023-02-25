@@ -5,12 +5,12 @@ function Accordion(props) {
     const accordionData = {
       title: props.proj_title,
       content: props.description,
-      img: `/${props.proj_title}.jpeg`.replace(' ','_'),
+      img: `./${props.proj_title}.jpeg`.replace(' ','_'),
       link: props.link
     };
     const [isActive, setIsActive] = useState(false);
     const { title, content, img, link } = accordionData;
-  
+    
     const contentRef = useRef(null);
   
     useEffect(() => {
