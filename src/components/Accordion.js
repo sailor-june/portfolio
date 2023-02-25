@@ -5,7 +5,7 @@ function Accordion(props) {
     const accordionData = {
       title: props.proj_title,
       content: props.description,
-      img: `./${props.proj_title}.jpeg`.replace(' ','_'),
+      img: `${process.env.PUBLIC_URL}/${props.proj_title}.jpeg`.replace(' ','_'),
       link: props.link
     };
     const [isActive, setIsActive] = useState(false);
@@ -40,8 +40,11 @@ function Accordion(props) {
               style={{ overflow: "hidden", transition: "max-height 1.5s ease" }}
               >
               <h3>{content}</h3>
+                
               <a href={link}>
-              <img src={img}></img></a>
+              <img src={img} onError={(e) => e.target.style.display='none'} /></a>
+
+              
             </div>
           </div>
         </div>
