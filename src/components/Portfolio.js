@@ -21,7 +21,7 @@ function Portfolio() {
         Fortune Diary is an app that lets you draw tarot cards, and save your reading as a diary entry.<br></br> 
         Data and images are drawn from an open source json library, and entries are saved via MongoDB.
         (version 2 coming soon!)
-        </>} link="https://fortune-diary.herokuapp.com/home"  />
+        </>} link="https://fortune-diary.netlify.app"  />
         
         <Accordion proj_title="Bunny Rancher" description={<>Bunny rancher is a game about raising the strongest Bunnies in the land.<br/> Acquire, train, and merge Bunnies to become the top trainer!</>} link="https://bunnyrancher.herokuapp.com/" className="third"/>
         
