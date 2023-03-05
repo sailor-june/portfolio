@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-  background: linear-gradient( rgb(88, 208, 134), rgb(75, 160, 0));
+  background: linear-gradient( rgb(39, 97, 61), rgb(50, 108, 0));
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -51,27 +51,27 @@ body {
 }
 
 .content{
-  margin: 2rem 2rem;
-  max-width: 90vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(143, 188, 143, 0.4);
+  border-radius: 2rem;
+  backdrop-filter: blur( 5rem );
+  -webkit-backdrop-filter: blur( 5rem );
+  padding: 2rem;
   box-shadow: 
   inset 1rem 1rem 4rem 2rem rgba(243, 193, 255, 0.9),
   inset -1rem -1rem 4rem,
   1rem 1rem 5rem white,
   -1rem -1rem 5rem rgba(255, 160, 252, 0.95),
   1rem 1rem 6rem rgba(243, 193, 255, 0.693);
-  z-index: 0;
-  border-radius: 2rem;
-  backdrop-filter: blur( 5rem );
-  -webkit-backdrop-filter: blur( 5rem );
-  padding: 2rem;
-  background-color: rgb(143, 188, 143, 0.4);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  min-width: 80%;
   height: auto;
+  margin: 2rem 2rem;
+  max-width: 60vw;
+  min-width: 80%;
   transition: all ease 1s;
   overflow: visible;
+  z-index: 0;
   
 img{
   max-width: 100%;
@@ -108,17 +108,24 @@ img{
   height: 80%
 }
 .accordion{
+
   border-radius: inherit;
   position: relative;
 }
 .accordion-item{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   border-radius: inherit;
   padding: 1rem;
 }
 .accordion-title{
+  max-width: 50%;
   border-radius: inherit;
   cursor: pointer;
   text-align: center;
+  box-shadow: 1px 1px 10px;
 }
 .accordion-content{
   text-align: center;

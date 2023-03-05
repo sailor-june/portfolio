@@ -23,7 +23,7 @@ function Portfolio() {
         (version 2 coming soon!)
         </>} link="https://fortune-diary.netlify.app"  />
         
-        <Accordion proj_title="Bunny Rancher" description={<>Bunny rancher is a game about raising the strongest Bunnies in the land.<br/> Acquire, train, and merge Bunnies to become the top trainer!</>} link="https://bunnyrancher.herokuapp.com/" className="third"/>
+        <Accordion proj_title="Bunny Rancher" description={<>Bunny rancher is a game about raising the strongest Bunnies in the land.<br/> Acquire, train, and merge Bunnies to become the top trainer!<a href="https://github.com/sailor-june/bunny_rancher">github repo here</a></>} link="https://bunnyrancher.herokuapp.com/" className="third"/>
         
         <Accordion proj_title="Mercantile" description={<> Mercantile is a proof-of-concept Community bartering platform.<br></br> Utilizing authentication via Google Firebase, users can Log in and post items to trade with one another. I was designated Front End lead for this project, and built it with React. </>} link="https://m3rcantile.netlify.app/" />
         <Accordion proj_title="Art and Design Gallery" description='' />
