@@ -54,6 +54,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   background-color: rgb(143, 188, 143, 0.4);
   border-radius: 2rem;
   backdrop-filter: blur( 5rem );
@@ -121,7 +122,7 @@ img{
   padding: 1rem;
 }
 .accordion-title{
-  max-width: 50%;
+  width: 30rem;
   border-radius: inherit;
   cursor: pointer;
   text-align: center;
@@ -155,7 +156,13 @@ img{
   display:none;
   }
   
-
+  .accordion-title{
+    width: 15rem;
+    border-radius: inherit;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 1px 1px 10px;
+  }
   
   
   .content {
