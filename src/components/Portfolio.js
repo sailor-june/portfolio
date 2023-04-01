@@ -4,7 +4,7 @@ function Portfolio() {
   
   return (
     
-    <div className="content">
+    <div className="content" id="portfolio">
       <h1 className="first">Portfolio</h1>
       <h1> </h1>
       <div className="content second">

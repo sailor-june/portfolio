@@ -3,7 +3,7 @@ import Accordion from "./Accordion";
 
 function Services() {
   return (
-    <div className="content">
+    <div className="content" id="services">
     
       <h1 className="first">Services</h1>
     <div className="content">

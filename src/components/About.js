@@ -2,7 +2,7 @@ import React from 'react'
 import { RadarChart } from './Radar'
 function About() {
   return (
-      <div className='content'>
+      <div className='content' id="about">
          
         <h1 className='first'>Juniper James, Software Developer</h1>
         <h1> </h1>
